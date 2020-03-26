@@ -1,13 +1,19 @@
 body 
 {
-    background-image: url(K5-seasons/img/K5_Winter);
+    background-image: url(K5-seasons/img/K5_Winter.jpg);
 }
 
 main
-{}
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+}
 
 nav 
 {}
 
 article 
-{}
+{
+    background-color: paleturquoise;
+}

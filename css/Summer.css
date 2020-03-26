@@ -1,13 +1,19 @@
 body 
 {
-    background-image: url(K5-seasons/img/K5_Summer);
+    background-image: url(K5-seasons/img/K5_Summer.jpg);
 }
 
 main
-{}
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+}
 
 nav 
-{}
+{text-align: center;}
 
 article 
-{}
+{
+    background-color: palegoldenrod;
+}
