@@ -1,6 +1,6 @@
 body 
 {
-    background-image: url(K5-seasons/img/K5_Winter.jpg);
+    background-image: url(img/K5Winter.jpg)
 }
 
 main
@@ -15,5 +15,8 @@ nav
 
 article 
 {
+    grid-column-start: 2;
     background-color: paleturquoise;
+    border-radius: 10px;
+    padding: 20px;
 }

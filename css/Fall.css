@@ -1,6 +1,6 @@
 body 
 {
- background-image: url(K5-seasons/img/K5_Fall.png);
+    background-image: url("K5Fall.png"); 
 }
 
 main
@@ -15,5 +15,8 @@ nav
 
 article 
 {
- background-color: peachpuff;
+    grid-column-start: 2;
+    background-color: peachpuff;
+    border-radius: 10px;
+    padding: 20px;
 }

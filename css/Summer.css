@@ -1,6 +1,6 @@
 body 
 {
-    background-image: url(K5-seasons/img/K5_Summer.jpg);
+    background-image: url("/K5-seasons/img/K5Summer.jpg");
 }
 
 main
@@ -11,9 +11,14 @@ main
 }
 
 nav 
-{text-align: center;}
+{
+
+}
 
 article 
 {
-    background-color: palegoldenrod;
+    grid-column-start: 2;
+    background-color: rgb(210, 255, 173);
+    border-radius: 10px;
+    padding: 20px;
 }
