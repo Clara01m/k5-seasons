@@ -10,13 +10,35 @@ main
     grid-template-rows: 1fr 1fr;
 }
 
-nav 
-{}
+h1
+{
+    text-align: center;
+}
+
+.nav
+{
+    list-style-type: none;
+    display: grid;
+    text-align: center;
+    align-self: center;
+    color: black;
+    background-color: rgb(252, 215, 182,.9);
+    border-radius: 10px;
+    margin: 10px 200px 20px 200px;
+    font-family: century gothic;
+    text-decoration: none;
+    
+}
+
+li
+{
+    color: black;
+}
 
 article 
 {
     grid-column-start: 2;
-    background-color: peachpuff;
+    background-color: rgb(252, 215, 182,.9);
     border-radius: 10px;
     padding: 20px;
 }
