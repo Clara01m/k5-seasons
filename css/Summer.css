@@ -1,13 +1,14 @@
 body 
 {
     background-image: url("../img/K5Summer.jpg");
+    background-size: cover;
 }
 
 main
 {
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 h1
@@ -20,16 +21,22 @@ h1
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:50px 300px;
+    grid-template-rows:50px 200px;
     text-align: center;
     align-self: center;
     color: black;
-    background-color: rgb(210, 255, 173,.9);
+    background-color: rgb(220, 255, 125,.9);
     border-radius: 10px;
     margin: 10px 200px 20px 200px;
     font-family: century gothic;
     text-decoration: none;
     
+}
+
+.season
+{
+    height: 150px;
+    width: auto;
 }
 
 li
@@ -40,7 +47,10 @@ li
 article 
 {
     grid-column-start: 2;
-    background-color: rgb(210, 255, 173,.9);
+    background-color: rgb(220, 255, 125,.9);
     border-radius: 10px;
     padding: 20px;
+    text-align: center;
 }
+
+
