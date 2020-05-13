@@ -18,6 +18,14 @@ h1
     color: #fff;
     
 }
+h2
+{
+    font-size: 2em;
+}
+p
+{
+    font-size: 1.5em;
+}
 
 .top
 {
@@ -62,3 +70,34 @@ article
 }
 
 
+@media(max-width:1050px)
+{
+    .season
+    {
+        height: 100px;
+        width: auto;
+    }
+    .nav
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:40px 110px;
+    border-radius: 10px;
+    margin: 10px 100px 10px 100px; 
+    }
+}
+@media(max-width:650px)
+{
+    .season
+    {
+        height: 65px;
+        width: auto;
+    }
+    .nav
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:40px 40px 75px 75px;
+    border-radius: 10px;
+    }
+}
